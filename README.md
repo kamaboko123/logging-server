@@ -8,12 +8,12 @@ cd logging-server
 
 ## Build
 ```
-# cd build
-# docker build -t logging-server-image ./
+cd build
+docker build -t logging-server-image ./
 ```
 
 ## Run
 ```
-# ./run.sh /path/to/logging-server-dir
+./run.sh /path/to/logging-server-dir
 ```
 
